@@ -18,9 +18,10 @@ header {
 header .logo {
   display: block;
   width: 70%;
-  max-height: 600px;
+  max-height: 200px;
   margin: auto;
-  padding: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
+  object-fit: contain;
 }
 
 .about-text {
