@@ -121,9 +121,12 @@ span {
   border: none;
   border-bottom: 1px solid darkslategrey;
   color: darkslategray;
-  font-family: "Lora", serif;
   text-align: left;
   border-radius: 0px;
+}
+
+#accordion p {
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .acc-item-content:last-child {
@@ -176,7 +179,7 @@ span {
   border: 2px solid #cf1d00;
   border-radius: 5px;
   color: #cf1d00;
-  font-family: "Figtree", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
   margin: 0 10px 0 10px;
 }
