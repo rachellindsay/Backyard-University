@@ -32,7 +32,7 @@ header .logo {
 }
 
 .about-text p {
-  font-family: "Lora", serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 1.3em;
   color: darkslategray;
@@ -44,14 +44,14 @@ header .logo {
 section .workshops {
   font-family: "Nunito Sans", sans-serif;
   background-color: #cf1d00;
-  color: #75daff;
+  color: aliceblue;
   width: 75%;
   padding-left: 10px;
   margin: auto;
 }
 
 section .more-info {
-  font-family: "Lora", serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 1.1em;
   color: darkslategray;
@@ -79,7 +79,7 @@ section .more-info {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #cf1d00;
-  color: #75daff;
+  color: aliceblue;
   padding: 5px;
   margin: 0 0 5px 0;
   text-align: left;
@@ -95,7 +95,7 @@ section .more-info {
 }
 
 #accordion button .intro {
-  font-family: "Lora", serif;
+  font-family: "Nunito Sans", sans-serif;
   font-style: italic;
   font-size: 1.3em;
   text-transform: none;
