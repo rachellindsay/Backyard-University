@@ -14,11 +14,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         button.setAttribute("aria-expanded", true);
         content.style.maxHeight = content.scrollHeight + "px";
         content.setAttribute("aria-hidden", false);
-        console.log("content now visible");
       }
-      console.log("content now visible");
     });
-    console.log("content now visible");
   });
-  console.log("content now visible");
 });
