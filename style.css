@@ -43,6 +43,7 @@ header .logo {
 
 section .workshops {
   font-family: "Nunito Sans", sans-serif;
+  font-size: large;
   background-color: #cf1d00;
   color: aliceblue;
   width: 75%;
