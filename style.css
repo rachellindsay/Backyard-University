@@ -46,9 +46,9 @@ section .newsletter {
   font-size: large;
   text-align: center;
   background-color: #75daff;
-  color: darkslategray;
+  color: #cf1d00;
   text-transform: none;
-  border: 2px solid aliceblue;
+  border: 2px dashed #cf1d00;
   border-radius: 0px;
   padding: 5px 5px 5px 5px;
 }
@@ -65,7 +65,11 @@ a:hover {
 a:visited {
   text-transform: none;
   text-decoration: none;
-  color: slategray;
+  color: darkslategray;
+}
+a:visited:hover {
+  color: #cf1d00;
+  text-transform: underline;
 }
 
 /* style for accordian */
@@ -167,6 +171,7 @@ span {
 
 #accordion p {
   font-family: "Nunito Sans", sans-serif;
+  margin: 0px auto 0px auto;
 }
 
 .acc-item-content:last-child {
@@ -174,9 +179,14 @@ span {
 }
 
 #accordion button.open::after {
-  content: "\002B";
-  font-weight: 900;
-  font-size: 22px;
+  /* content: "\002B"; */
+  content: "more details";
+  font-weight: 600;
+  font-size: small;
+  color: slategray;
+  border: 2px solid #cf1d00;
+  border-radius: 5px;
+  padding: 5px;
   float: right;
 }
 
@@ -188,9 +198,14 @@ span {
 }
 
 #accordion button.open.active:after {
-  content: "\2212";
-  font-weight: 900;
-  font-size: 22px;
+  /* content: "\2212"; */
+  content: "fewer details";
+  font-weight: 600;
+  font-size: small;
+  color: slategray;
+  border: 2px solid #cf1d00;
+  border-radius: 5px;
+  padding: 5px;
   float: right;
 }
 
@@ -224,6 +239,21 @@ span {
   margin: 0 10px 0 10px;
 }
 
+.register:link {
+  color: darkslategray;
+  text-transform: none;
+  text-decoration: none;
+}
+.register:hover {
+  color: #cf1d00;
+  text-decoration: underline;
+}
+.register:visited {
+  text-transform: none;
+  text-decoration: none;
+  color: slategray;
+}
+
 footer {
   margin: 40px auto 5px auto;
   color: darkslategray;
@@ -242,6 +272,7 @@ footer {
 h5 {
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
+  margin: 5px auto 5px auto;
 }
 
 .social .email {
@@ -249,15 +280,13 @@ h5 {
   font-weight: 700;
 }
 
-.social .instagram {
-  color: darkslategray;
-  font-size: medium;
-  font-weight: 700;
-}
-
 .social span {
   display: block;
   text-align: left;
+}
+
+.social a {
+  padding: 2px 20px 2px 0px;
 }
 /* responsive styles */
 
