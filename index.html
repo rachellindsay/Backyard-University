@@ -35,6 +35,13 @@
     </section>
 
     <!-- Newsletter signup goes here-->
+    <section>
+      <h2 class="newsletter">
+        <a href="signup.html"
+          >Sign up to receive the Backyard University newsletter</a
+        >
+      </h2>
+    </section>
 
     <!-- accordion drop down for class descriptions and links to Eventbrite -->
     <section>
@@ -44,6 +51,12 @@
           All class registration is through Eventbrite. Each class description
           includes a link to Eventbrite to register. Click the photo or text for
           more details about each class.
+        </p>
+        <p>
+          Questions?
+          <a href="mailto:backyarduniversitypdx@gmail.com"
+            >Email backyarduniversitypdx@gmail.com</a
+          >
         </p>
       </div>
 
@@ -58,6 +71,7 @@
         <li>
           <!-- text/img that shows when accordion closed -->
           <button
+            class="open"
             aria-controls="content-1"
             aria-expanded="false"
             id="accordion-control-1"
@@ -107,6 +121,9 @@
                 This class will be held outside. Please dress appropriately. If
                 it does rain, we will meet inside and make forays out to the
                 garden for demonstrations.
+                <button class="close">
+                  <span>(fewer details...)</span>
+                </button>
               </p>
             </div>
             <!-- link to Eventbrite -->
@@ -125,6 +142,7 @@
         <!-- Natives -->
         <li>
           <button
+            class="open"
             aria-controls="content-2"
             aria-expanded="false"
             id="accordion-control-2"
@@ -158,7 +176,7 @@
                 When registering for this event, please indicate if you will be
                 able to bring pruners or if you need a pair to be provided for
                 you. Expect to be out in the rain when gathering cuttings and
-                dress accordingly.
+                dress accordingly. <span class="close">(fewer details...)</span>
               </p>
             </div>
             <div class="reg">
@@ -176,6 +194,7 @@
         <!--Wood chips-->
         <li>
           <button
+            class="open"
             aria-controls="content-3"
             aria-expanded="false"
             id="accordion-control-3"
@@ -216,7 +235,7 @@
                 We will meet outside, so please dress appropriately. If it is
                 sunny, we will gather in the backyard. If it is raining,
                 instruction will move to an unheated workshop that opens out
-                into the garden.
+                into the garden. <span class="close">(fewer details...)</span>
               </p>
             </div>
             <div>
@@ -234,6 +253,7 @@
         <!-- Seed bombs -->
         <li>
           <button
+            class="open"
             aria-controls="content-4"
             aria-expanded="false"
             id="accordion-control-4"
@@ -279,6 +299,7 @@
                 <br />
                 Included with the class: Clay, worm castings, and native
                 wildflower seeds to make 40-60 seed bombs to take home.
+                <span class="close">(fewer details...)</span>
               </p>
             </div>
             <div>
@@ -294,14 +315,29 @@
         </li>
       </ul>
     </section>
+
+    <section>
+      <h2 class="newsletter">
+        <a href="signup.html"
+          >Sign up to receive the Backyard University newsletter</a
+        >
+      </h2>
+    </section>
+
     <footer>
       <div class="social">
-        <a
-          href="https://www.eventbrite.com/o/backyard-university-69029516683"
-        ></a>
-        <a href="https://www.instagram.com/backyard.university/"
-          ><img src="logo/Instagram_Glyph_Black.svg"
-        /></a>
+        <span class="email">
+          <a href="mailto:backyarduniversitypdx@gmail. com"
+            >backyarduniversitypdx@gmail.com</a
+          >
+        </span>
+
+        <span class="instagram">
+          <a href="https://www.instagram.com/backyard.university/"
+            ><!--<img src="logo/Instagram_Glyph_Black.svg"
+            />-->Instagram: @backyard.university</a
+          >
+        </span>
       </div>
       <h5>Copyright ©2023 Backyard University</h5>
     </footer>

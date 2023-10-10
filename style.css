@@ -26,7 +26,7 @@ header .logo {
 
 .about-text {
   width: 80%;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 0px auto;
   max-width: 1200px;
   background-color: #75daff;
 }
@@ -37,6 +37,35 @@ header .logo {
   font-size: 1.3em;
   color: darkslategray;
   text-align: center;
+}
+/* style for newsletter signup */
+section .newsletter {
+  width: 60%;
+  margin: 20px auto 30px auto;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: large;
+  text-align: center;
+  background-color: #75daff;
+  color: darkslategray;
+  text-transform: none;
+  border: 2px solid aliceblue;
+  border-radius: 0px;
+  padding: 5px 5px 5px 5px;
+}
+
+a:link {
+  color: darkslategray;
+  text-transform: none;
+  text-decoration: none;
+}
+a:hover {
+  color: #cf1d00;
+  text-decoration: underline;
+}
+a:visited {
+  text-transform: none;
+  text-decoration: none;
+  color: slategray;
 }
 
 /* style for accordian */
@@ -114,7 +143,7 @@ span {
   outline: none;
 }
 
-#accordion button {
+#accordion button.open {
   outline: none;
   background-color: aliceblue;
   cursor: pointer;
@@ -126,6 +155,16 @@ span {
   border-radius: 0px;
 }
 
+#accordion button.close {
+  outline: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  color: darkslategray;
+  text-align: left;
+}
+
 #accordion p {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -134,7 +173,7 @@ span {
   border-bottom: 1px solid DarkSlateGray;
 }
 
-#accordion button::after {
+#accordion button.open::after {
   content: "\002B";
   font-weight: 900;
   font-size: 22px;
@@ -148,7 +187,7 @@ span {
   transition: max-height 0.3s ease-out;
 }
 
-#accordion button.active:after {
+#accordion button.open.active:after {
   content: "\2212";
   font-weight: 900;
   font-size: 22px;
@@ -188,21 +227,38 @@ span {
 footer {
   margin: 40px auto 5px auto;
   color: darkslategray;
+  font-family: "Nunito Sans", sans-serif;
 }
 .social {
   display: block;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
 .social img {
   width: 25px;
 }
+
 h5 {
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
 }
 
+.social .email {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.social .instagram {
+  color: darkslategray;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.social span {
+  display: block;
+  text-align: left;
+}
 /* responsive styles */
 
 @media screen and (max-width: 700px) {
