@@ -1,9 +1,7 @@
 /*
-font-family: 'Alegreya', serif;
-font-family: 'Lora', serif;
+
 font-family: 'Nunito Sans', sans-serif;
-font-family: 'Roboto Serif', serif;
-font-family: 'Roboto Slab', serif;
+
 
 red: #cf1d00
 blue: #75daff
@@ -172,6 +170,13 @@ span {
 #accordion p {
   font-family: "Nunito Sans", sans-serif;
   margin: 0px auto 0px auto;
+}
+#accordion .instructor {
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .acc-item-content:last-child {
