@@ -95,7 +95,7 @@ section .more-info {
   width: 80%;
   max-width: 900px;
   min-width: 275px;
-  margin: auto;
+  margin: 20px auto 20px auto;
   list-style: none;
   background-color: aliceblue;
 }
@@ -257,6 +257,10 @@ span {
   text-transform: none;
   text-decoration: none;
   color: slategray;
+}
+
+.classes {
+  padding: 20px 0px 20px 0px;
 }
 
 footer {
