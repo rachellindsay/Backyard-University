@@ -1,8 +1,5 @@
-- more details/less details
-- updating the logo
+To do:
+
 - eventbrite icon
 - eventbrite plugin
-- real domain
-- update accordion ids to not be numbers content-1 --> CoverCrop
-- favicon
 - remove breaks and use paragraph tags and style the paragraphs.

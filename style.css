@@ -335,3 +335,30 @@ h5 {
     background-color: #75daff;
   }
 }
+
+div .newsletter-signup {
+  margin: auto;
+}
+
+/* signup.html (mail chimp css) */
+
+#mc_embed_signup{
+  background-color:#75daff;
+  false;
+  clear:left;
+  font-family: "Nunito-Sans", sans-serif;
+  font-size:14px;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+#mc_embed_signup_scroll img {
+  display: block;
+  margin: auto;
+  max-height: 200px;
+}
+#mc_embed_signup_scroll h3 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  color: darkslategray;
+}
