@@ -126,6 +126,16 @@ section .more-info {
   padding: 10px 0 0 0;
 }
 
+#accordion .location {
+  text-transform: none;
+  background-color: aliceblue;
+  color: darkslategray;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+
 #accordion button .intro {
   font-family: "Nunito Sans", sans-serif;
   font-style: italic;
