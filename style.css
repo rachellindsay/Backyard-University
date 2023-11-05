@@ -116,6 +116,12 @@ section .more-info {
   margin: 0 0 5px 0;
   text-align: left;
 }
+#accordion h3 span {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  color: aliceblue;
+}
 
 #accordion button .date {
   text-transform: none;
