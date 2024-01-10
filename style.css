@@ -91,6 +91,14 @@ section .more-info {
   margin: auto;
 }
 
+section .stay-tuned {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #cf1d00;
+  text-align: center;
+}
+
 #accordion {
   width: 80%;
   max-width: 900px;
@@ -140,7 +148,6 @@ section .more-info {
   margin: 0;
   padding: 0;
 }
-
 
 #accordion button .intro {
   font-family: "Nunito Sans", sans-serif;
@@ -358,12 +365,12 @@ div .newsletter-signup {
 
 /* signup.html (mail chimp css) */
 
-#mc_embed_signup{
-  background-color:#75daff;
-  false;
-  clear:left;
+#mc_embed_signup {
+  background-color: #75daff;
+
+  clear: left;
   font-family: "Nunito-Sans", sans-serif;
-  font-size:14px;
+  font-size: 14px;
   width: 70%;
   margin: auto;
   padding: 20px;
