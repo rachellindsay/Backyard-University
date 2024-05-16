@@ -286,6 +286,10 @@ span {
   padding: 20px 0px 20px 0px;
 }
 
+#accordion .past-class .date {
+  text-decoration: line-through;
+}
+
 footer {
   margin: 40px auto 5px auto;
   color: darkslategray;
