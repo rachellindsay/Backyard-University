@@ -107,11 +107,16 @@ section .stay-tuned {
   list-style: none;
   background-color: aliceblue;
 }
+
+#accordion ul {
+  list-style-type: none;
+}
 #accordion li {
   border-bottom: none;
   width: 100%;
   margin: auto;
   background-color: aliceblue;
+  list-style: none;
 }
 
 #accordion h3 {
